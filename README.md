@@ -2,12 +2,8 @@
 
 ![Thumbnail](https://user-images.githubusercontent.com/111799231/196196419-b23dd1a9-6e26-46db-9229-0e7c10328ef2.jpg)
 
-<sub>
-  Bored to read all the text? Well I can read it for you.
-Go to my Medium link (
+>Bored to read all the text? Well I can read it for you. Go to my Medium link (
 https://medium.com/@theakaneasahi/picoctf-picogym-practice-challenges-crackme-py-39b227ee06a7 ) and there is options that will read all these below texts for you.
-</sub>
-
 
 **What**
 ```
@@ -23,7 +19,8 @@ When you'll "`wget`" the file, "`cat`" it.
 <img width="419" alt="code2" src="https://user-images.githubusercontent.com/111799231/196199102-a19cb48d-2f85-402b-9141-1061b9271ee0.png">
 
 So, you'll see there are 2 methods, `decode_secret()`, `choose_greatest()`. But only choose_greatest is called. 
-Step 2:
+
+**Step 2:**
 ```
 nano crackme.py
 ```
