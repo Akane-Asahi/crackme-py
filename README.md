@@ -30,9 +30,10 @@ This will open editing option for the python file. Call the decode_secret() func
 
 
 **Why?**  
-Get used to edit python programming
+Get used to edit python programming  
 This time you didn't have to program or decode anything to get the flag, but this is the indication that you will have to write your own decode function later.
 
+Below, is the snipest of my work in the webshell.
 
 ```
 python crackme.py
