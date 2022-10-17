@@ -8,6 +8,7 @@ Go to my Medium link (
 https://medium.com/@theakaneasahi/picoctf-picogym-practice-challenges-crackme-py-39b227ee06a7 ) and there is options that will read all these below texts for you.
 </sub>
 
+
 **What**
 ```
 picoCTF{1|\/|_4_p34|\|ut_f3bc410e}
@@ -16,12 +17,12 @@ picoCTF{1|\/|_4_p34|\|ut_f3bc410e}
 **How?**  
 
 Step 1: 
-When you'll "wget" the file, "cat" it.
+When you'll "`wget`" the file, "`cat`" it.
 
-<img width="482" alt="code1" src="https://user-images.githubusercontent.com/111799231/196195701-07848508-f1cc-43d9-98f8-763e6448dce3.png">
-![code2](https://user-images.githubusercontent.com/111799231/196195769-b9820060-f68b-4283-b8d0-04075fa501d0.jpeg)
+<img width="482" alt="code1" src="https://user-images.githubusercontent.com/111799231/196198756-0ad24f9c-2724-4403-b72c-39296a910d85.png">
+<img width="419" alt="code2" src="https://user-images.githubusercontent.com/111799231/196199102-a19cb48d-2f85-402b-9141-1061b9271ee0.png">
 
-So, you'll see there are 2 methods, decode_secret(), choose_greatest(). But only choose_greatest is called. 
+So, you'll see there are 2 methods, `decode_secret()`, `choose_greatest()`. But only choose_greatest is called. 
 Step 2:
 ```
 nano crackme.py
